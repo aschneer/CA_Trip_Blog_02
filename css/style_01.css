@@ -6,24 +6,47 @@
 	font-family: "cabin";
 	src: url("../fonts/Cabin/Cabin-Regular.ttf");
 }
-
 body
 {
 	background-color: white;
 }
-
 h1,h2,h3,h4,h5
 {
-	font-family: calligraffitti, sans-serif;
+	font-family: "calligraffitti", sans-serif;
 }
-
 h1
 {
 	font-weight: bold;
-	text-align: center;
+	font-size: 48pt;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 p
 {
-	font-family: cabin, sans-serif;
+	font-family: "cabin", sans-serif;
+	font-size: 16pt;
+}
+div
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+header
+{
+	text-align: center;
+}
+section.entry div.image div
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+section.entry div.image div img
+{
+	width: 100%;
+}
+section.intro div img
+{
+	width: 100%;
 }
