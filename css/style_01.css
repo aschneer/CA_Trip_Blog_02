@@ -21,6 +21,10 @@ h1
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+h2
+{
+	font-size: 24pt;
+}
 p
 {
 	font-family: "cabin", sans-serif;
@@ -35,7 +39,22 @@ header
 {
 	text-align: center;
 }
+section.entry div.image:not(.image-single)
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 section.entry div.image div
+{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+section.entry div.image-single div
 {
 	margin-left: 0px;
 	margin-right: 0px;
