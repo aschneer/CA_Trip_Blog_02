@@ -29,37 +29,47 @@ p
 {
 	font-family: "cabin", sans-serif;
 	font-size: 16pt;
+	padding-left: 20px;
+	margin: 0px;
+}
+a.thumbnail
+{
+	margin-bottom: 0px;
 }
 div
 {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 header
 {
 	text-align: center;
 }
-section.entry div.image:not(.image-single)
-{
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 8px;
-	padding-right: 8px;
-}
-section.entry div.image div
-{
-	text-align: center;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 8px;
-	padding-right: 8px;
-}
+/*
 section.entry div.image-single div
 {
 	margin-left: 0px;
 	margin-right: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}*/
+section.entry div.image:not(.image-single)
+{
+	margin-left: 0px;
+	margin-right: 0px;
+/*	padding-left: 8px;
+	padding-right: 8px;*/
+}
+section.entry div.image div
+{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+/*	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+*/
 }
 section.entry div.image div img
 {
