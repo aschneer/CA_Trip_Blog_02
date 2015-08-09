@@ -36,6 +36,14 @@ a.thumbnail
 {
 	margin-bottom: 0px;
 }
+a#home-button
+{
+	font-weight: bold;
+}
+a.navbar-brand
+{
+	font-weight: bold;
+}
 div.row:not(.image)
 {
 	padding-top: 10px;
@@ -62,6 +70,84 @@ p#footer
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ul.my-pager
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+div.date-header
+{
+	position: fixed;
+	top: 50px;
+	width: 100%;
+}
+div.date-header h2
+{
+	text-align: center;
+}
+nav.date-header
+{
+	width: 100%;
+}
+
+
+
+div.v-space-005px
+{
+	margin: 0px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-010px
+{
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-015px
+{
+	margin: 0px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-020px
+{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-025px
+{
+	margin: 0px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-050px
+{
+	margin: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.v-space-100px
+{
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left: 0px;
 	padding-right: 0px;
 }
