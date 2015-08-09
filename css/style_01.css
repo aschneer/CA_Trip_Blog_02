@@ -29,14 +29,14 @@ p
 {
 	font-family: "cabin", sans-serif;
 	font-size: 16pt;
-	padding-left: 20px;
+	padding-left: 15px;
 	margin: 0px;
 }
 a.thumbnail
 {
 	margin-bottom: 0px;
 }
-div
+div.row:not(.image)
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -45,22 +45,14 @@ header
 {
 	text-align: center;
 }
-section.entry div.image:not(.image-single)
-{
-	margin-left: 0px;
-	margin-right: 0px;
-}
-section.entry div.image div
+
+section.entry div.container-fluid div.image div
 {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
 }
-section.entry div.image div img
-{
-	width: 100%;
-}
-section.intro div img
+div img
 {
 	width: 100%;
 }
@@ -68,7 +60,6 @@ p#footer
 {
 	display: block;
 	text-align: center;
-	margin-top: 50px;
 	padding-top: 50px;
 	padding-bottom: 10px;
 	padding-left: 0px;
