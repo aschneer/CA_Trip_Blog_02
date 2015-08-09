@@ -45,31 +45,16 @@ header
 {
 	text-align: center;
 }
-/*
-section.entry div.image-single div
-{
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-}*/
 section.entry div.image:not(.image-single)
 {
 	margin-left: 0px;
 	margin-right: 0px;
-/*	padding-left: 8px;
-	padding-right: 8px;*/
 }
 section.entry div.image div
 {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
-/*	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 8px;
-	padding-right: 8px;
-*/
 }
 section.entry div.image div img
 {
@@ -78,4 +63,14 @@ section.entry div.image div img
 section.intro div img
 {
 	width: 100%;
+}
+p#footer
+{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
