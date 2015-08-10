@@ -39,7 +39,7 @@ a.thumbnail
 	margin-bottom: 0px;
 /*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
 	background-color: transparent;
-	box-shadow: 0px 0px 5px 2px black;
+	box-shadow: 0px 0px 8px 2px black;
 	border-style: none;
 	padding: 0px;
 	margin: 1px;
@@ -64,7 +64,9 @@ header
 }
 section.entry
 {
+	position: relative;
 	background-image: url(../assets/tweed/tweed.png);
+	z-index: -5;
 }
 section.entry div.container-fluid div.image div
 {
@@ -90,7 +92,7 @@ ul.my-pager
 	position: relative;
 	margin-top: 15px;
 	margin-bottom: 0px;
-	z-index: 1;
+	z-index: 10;
 }
 ul.my-pager li a
 {
@@ -123,9 +125,8 @@ div.nav-pager
 div.date-header
 {
 	position: relative;
-	z-index: -1;
+	z-index: -10;
 }
-
 
 div.v-space-005px
 {
