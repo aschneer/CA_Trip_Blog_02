@@ -8,7 +8,7 @@
 }
 body
 {
-	background-image: url(../assets/tweed/tweed.png);
+	background-image: url(./assets/tweed/tweed.png);
 }
 h1,h2,h3,h4,h5
 {
@@ -64,7 +64,7 @@ header
 }
 section.entry
 {
-	background-image: url(../assets/tweed/tweed.png);
+	background-image: url(./assets/tweed/tweed.png);
 }
 section.entry div.container-fluid div.image div
 {
