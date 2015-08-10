@@ -8,12 +8,12 @@
 }
 body
 {
-	background-image: url(../assets/tweed/tweed.png);
+	background-color: white;
 }
 h1,h2,h3,h4,h5
 {
 	font-family: "calligraffitti", sans-serif;
-	color: #E6E6E6;
+	color: black;
 }
 h1
 {
@@ -28,7 +28,7 @@ h2
 }
 p
 {
-	color: #E6E6E6;
+	color: black;
 	font-family: "cabin", sans-serif;
 	font-size: 16pt;
 	padding-left: 15px;
@@ -37,12 +37,6 @@ p
 a.thumbnail
 {
 	margin-bottom: 0px;
-/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
-	background-color: transparent;
-	box-shadow: 0px 0px 5px 2px black;
-	border-style: none;
-	padding: 0px;
-	margin: 1px;
 }
 nav.navbar a.navbar-brand
 {
@@ -64,7 +58,7 @@ header
 }
 section.entry
 {
-	background-image: url(../assets/tweed/tweed.png);
+	background-color: white;
 }
 section.entry div.container-fluid div.image div
 {
@@ -92,28 +86,14 @@ ul.my-pager
 	margin-bottom: 0px;
 	z-index: 1;
 }
-ul.my-pager li a
-{
-	background-color: transparent;
-/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
-/*
-	opacity: 0.6;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
-}
 ul.my-pager li:not(.disabled) a
 {
-	color: white;
 	font-weight: bold;
 	font-style: italic;
-}
-ul.my-pager li:not(.disabled) a:hover
-{
-	color: black;
 }
 ul.my-pager li.disabled a
 {
 	color: #E6E6E6;
-	background-color: transparent;
 }
 div.nav-pager
 {
