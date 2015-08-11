@@ -38,9 +38,14 @@ a.thumbnail
 {
 	margin-bottom: 0px;
 }
+nav.navbar a
+{
+	font-family: "cabin", sans-serif;
+}
 nav.navbar a.navbar-brand
 {
-	color: #33CCFF;
+/*	color: #33CCFF; */
+	color: white;
 	font-weight: bold;
 }
 a.btn
@@ -55,6 +60,10 @@ div.row:not(.image)
 header
 {
 	text-align: center;
+}
+section.action span.glyphicon
+{
+	color: #303030;
 }
 section.entry
 {
@@ -87,6 +96,10 @@ ul.my-pager
 	margin-top: 15px;
 	margin-bottom: 0px;
 	z-index: 10;
+}
+ul.my-pager li a
+{
+	font-family: "cabin", sans-serif;
 }
 ul.my-pager li:not(.disabled) a
 {

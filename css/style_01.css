@@ -44,9 +44,14 @@ a.thumbnail
 	padding: 0px;
 	margin: 1px;
 }
+nav.navbar a
+{
+	font-family: "cabin", sans-serif;
+}
 nav.navbar a.navbar-brand
 {
-	color: #33CCFF;
+/*	color: #33CCFF; */
+	color: white;
 	font-weight: bold;
 }
 a.btn
@@ -61,6 +66,10 @@ div.row:not(.image)
 header
 {
 	text-align: center;
+}
+section.action span.glyphicon
+{
+	color: #303030;
 }
 section.entry
 {
@@ -96,6 +105,7 @@ ul.my-pager
 }
 ul.my-pager li a
 {
+	font-family: "cabin", sans-serif;
 	background-color: transparent;
 /*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
 /*
