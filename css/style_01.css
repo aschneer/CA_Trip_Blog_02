@@ -45,7 +45,7 @@ nav.navbar a
 nav.navbar a.navbar-brand
 {
 /*	color: #33CCFF; */
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 a.btn
