@@ -36,6 +36,8 @@ p
 }
 a.thumbnail
 {
+	position: relative;
+	z-index: 10;
 	margin-bottom: 0px;
 /*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
 	background-color: transparent;
@@ -77,7 +79,7 @@ section.entry
 {
 	position: relative;
 	background-image: url(../assets/tweed/tweed.png);
-	z-index: 8;
+	z-index: 1;
 }
 section.entry div.container-fluid div.image div
 {
@@ -100,15 +102,15 @@ p#footer
 }
 ul.my-pager
 {
-	position: relative;
 	margin-top: 15px;
 	margin-bottom: 0px;
-	z-index: 10;
 }
 ul.my-pager li a
 {
+	position: relative;
 	font-family: "cabin", sans-serif;
 	background-color: transparent;
+	z-index: 10;
 /*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
 /*
 	opacity: 0.6;
@@ -134,11 +136,7 @@ div.nav-pager
 	position: fixed;
 	width: 100%;
 }
-div.date-header
-{
-	position: relative;
-	z-index: -10;
-}
+
 
 div.v-space-005px
 {

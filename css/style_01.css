@@ -36,6 +36,8 @@ p
 }
 a.thumbnail
 {
+	position: relative;
+	z-index: 10;
 	margin-bottom: 0px;
 }
 nav.navbar a
@@ -70,7 +72,7 @@ section.entry
 {
 	position: relative;
 	background-color: white;
-	z-index: 8;
+	z-index: 1;
 }
 section.entry div.container-fluid div.image div
 {
@@ -93,16 +95,16 @@ p#footer
 }
 ul.my-pager
 {
-	position: relative;
 	margin-top: 15px;
 	margin-bottom: 0px;
-	z-index: 10;
 }
 ul.my-pager li a
 {
+	position: relative;
 	font-family: "cabin", sans-serif;
 	color: black;
 	background-color: transparent;
+	z-index: 10;
 }
 ul.my-pager li:not(.disabled) a
 {
@@ -116,12 +118,8 @@ ul.my-pager li.disabled a
 div.nav-pager
 {
 	position: fixed;
+	z-index: 10;
 	width: 100%;
-}
-div.date-header
-{
-	position: relative;
-	z-index: -10;
 }
 
 
