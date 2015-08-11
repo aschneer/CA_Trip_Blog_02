@@ -70,7 +70,7 @@ section.entry
 {
 	position: relative;
 	background-color: white;
-	z-index: -5;
+	z-index: 8;
 }
 section.entry div.container-fluid div.image div
 {
