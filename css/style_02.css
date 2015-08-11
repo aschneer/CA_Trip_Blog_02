@@ -8,12 +8,12 @@
 }
 body
 {
-	background-color: white;
+	background-image: url(../assets/tweed/tweed.png);
 }
 h1,h2,h3,h4,h5
 {
 	font-family: "calligraffitti", sans-serif;
-	color: black;
+	color: #E6E6E6;
 }
 h1
 {
@@ -28,7 +28,7 @@ h2
 }
 p
 {
-	color: black;
+	color: #E6E6E6;
 	font-family: "cabin", sans-serif;
 	font-size: 16pt;
 	padding-left: 15px;
@@ -37,6 +37,12 @@ p
 a.thumbnail
 {
 	margin-bottom: 0px;
+/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
+	background-color: transparent;
+	box-shadow: 0px 0px 8px 2px black;
+	border-style: none;
+	padding: 0px;
+	margin: 1px;
 }
 nav.navbar a
 {
@@ -63,12 +69,14 @@ header
 }
 section.action span.glyphicon
 {
-	color: #303030;
+	font-size: 50px;
+	color: #E6E6E6;
+	text-shadow: 0px 0px 8px black;
 }
 section.entry
 {
 	position: relative;
-	background-color: white;
+	background-image: url(../assets/tweed/tweed.png);
 	z-index: -5;
 }
 section.entry div.container-fluid div.image div
@@ -100,15 +108,26 @@ ul.my-pager
 ul.my-pager li a
 {
 	font-family: "cabin", sans-serif;
+	background-color: transparent;
+/*	background-image: url(../assets/mochaGrunge/mochaGrunge.png); */
+/*
+	opacity: 0.6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 ul.my-pager li:not(.disabled) a
 {
+	color: white;
 	font-weight: bold;
 	font-style: italic;
+}
+ul.my-pager li:not(.disabled) a:hover
+{
+	color: black;
 }
 ul.my-pager li.disabled a
 {
 	color: #E6E6E6;
+	background-color: transparent;
 }
 div.nav-pager
 {
@@ -120,7 +139,6 @@ div.date-header
 	position: relative;
 	z-index: -10;
 }
-
 
 div.v-space-005px
 {
